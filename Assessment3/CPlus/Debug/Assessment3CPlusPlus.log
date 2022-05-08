@@ -1,0 +1,7 @@
+﻿  main.cpp
+D:\Program Files\WszystkoZPulpitu\1Uniwersytet\EE3093 - Copy\Assessment3\CPlus\FlightTimetableEntry.h(77,1): warning C4305: '=': truncation from 'int' to 'unsigned char'
+D:\Program Files\WszystkoZPulpitu\1Uniwersytet\EE3093 - Copy\Assessment3\CPlus\FlightTimetableEntry.h(77,14): warning C4309: '=': truncation of constant value
+D:\Program Files\WszystkoZPulpitu\1Uniwersytet\EE3093 - Copy\Assessment3\CPlus\main.cpp(105,6): warning C4101: 'i': unreferenced local variable
+D:\Program Files\WszystkoZPulpitu\1Uniwersytet\EE3093 - Copy\Assessment3\CPlus\main.cpp(116,95): warning C4101: 'result': unreferenced local variable
+D:\Program Files\WszystkoZPulpitu\1Uniwersytet\EE3093 - Copy\Assessment3\CPlus\main.cpp(159,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Assessment3CPlusPlus.vcxproj -> D:\Program Files\WszystkoZPulpitu\1Uniwersytet\EE3093 - Copy\Assessment3\CPlus\Debug\Assessment3CPlusPlus.exe

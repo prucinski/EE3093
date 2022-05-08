@@ -1,0 +1,30 @@
+# Project: TUT1
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = tester.o $(RES)
+LINKOBJ  = tester.o $(RES)
+LIBS =  -L"C:/Program_Files/Dev-Cpp/lib"  -fmessage-length=0 
+INCS =  -I"C:/Program_Files/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Program_Files/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Program_Files/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Program_Files/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Program_Files/Dev-Cpp/include/c++/3.4.2"  -I"C:/Program_Files/Dev-Cpp/include" 
+BIN  = TUT1.exe
+CXXFLAGS = $(CXXINCS)   -fmessage-length=0
+CFLAGS = $(INCS)   -fmessage-length=0
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before TUT1.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "TUT1.exe" $(LIBS)
+
+tester.o: tester.cpp
+	$(CPP) -c tester.cpp -o tester.o $(CXXFLAGS)
